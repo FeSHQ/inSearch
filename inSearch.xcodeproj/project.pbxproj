@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D632F311B4F9DD2006EDFBD /* ISDateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F301B4F9DD2006EDFBD /* ISDateManger.m */; };
+		2D632F341B4F9E10006EDFBD /* ISServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F331B4F9E10006EDFBD /* ISServerManager.m */; };
+		2D632F381B4F9E6C006EDFBD /* ISUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F371B4F9E6C006EDFBD /* ISUser.m */; };
+		2D632F481B4F9F25006EDFBD /* ISCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F431B4F9F25006EDFBD /* ISCell.m */; };
+		2D632F491B4F9F25006EDFBD /* ISView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F471B4F9F25006EDFBD /* ISView.m */; };
+		2D632F4C1B4F9F44006EDFBD /* ISLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F4B1B4F9F44006EDFBD /* ISLoginViewController.m */; };
+		2D632F551B4FA070006EDFBD /* NSDate+NSDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D632F541B4FA070006EDFBD /* NSDate+NSDateExtension.m */; };
+		2D632F571B4FA1B2006EDFBD /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D632F561B4FA1B2006EDFBD /* testImage.png */; };
 		2DFAA8881B4F90AC00AF4689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA8871B4F90AC00AF4689 /* main.m */; };
 		2DFAA88B1B4F90AC00AF4689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA88A1B4F90AC00AF4689 /* AppDelegate.m */; };
 		2DFAA8911B4F90AC00AF4689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFAA88F1B4F90AC00AF4689 /* Main.storyboard */; };
@@ -54,7 +62,6 @@
 		2DFAA9371B4F959800AF4689 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA9251B4F959800AF4689 /* UIRefreshControl+AFNetworking.m */; };
 		2DFAA9381B4F959800AF4689 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA9271B4F959800AF4689 /* UIWebView+AFNetworking.m */; };
 		2DFAA93A1B4F95E900AF4689 /* VKSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFAA9391B4F95E900AF4689 /* VKSdk.framework */; };
-		2DFAA9431B4F97AC00AF4689 /* ISLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA9421B4F97AC00AF4689 /* ISLoginViewController.m */; };
 		2DFAA9461B4F97CE00AF4689 /* ISUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAA9451B4F97CE00AF4689 /* ISUtils.m */; };
 		2DFAA94A1B4F98AC00AF4689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFAA9491B4F98AC00AF4689 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -70,6 +77,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D632F2F1B4F9DD2006EDFBD /* ISDateManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDateManger.h; sourceTree = "<group>"; };
+		2D632F301B4F9DD2006EDFBD /* ISDateManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDateManger.m; sourceTree = "<group>"; };
+		2D632F321B4F9E10006EDFBD /* ISServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISServerManager.h; sourceTree = "<group>"; };
+		2D632F331B4F9E10006EDFBD /* ISServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISServerManager.m; sourceTree = "<group>"; };
+		2D632F361B4F9E6C006EDFBD /* ISUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISUser.h; sourceTree = "<group>"; };
+		2D632F371B4F9E6C006EDFBD /* ISUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISUser.m; sourceTree = "<group>"; };
+		2D632F3F1B4F9EE0006EDFBD /* ISPtorocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPtorocol.h; sourceTree = "<group>"; };
+		2D632F421B4F9F25006EDFBD /* ISCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISCell.h; sourceTree = "<group>"; };
+		2D632F431B4F9F25006EDFBD /* ISCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISCell.m; sourceTree = "<group>"; };
+		2D632F461B4F9F25006EDFBD /* ISView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISView.h; sourceTree = "<group>"; };
+		2D632F471B4F9F25006EDFBD /* ISView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISView.m; sourceTree = "<group>"; };
+		2D632F4A1B4F9F44006EDFBD /* ISLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISLoginViewController.h; sourceTree = "<group>"; };
+		2D632F4B1B4F9F44006EDFBD /* ISLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISLoginViewController.m; sourceTree = "<group>"; };
+		2D632F531B4FA070006EDFBD /* NSDate+NSDateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSDateExtension.h"; sourceTree = "<group>"; };
+		2D632F541B4FA070006EDFBD /* NSDate+NSDateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSDateExtension.m"; sourceTree = "<group>"; };
+		2D632F561B4FA1B2006EDFBD /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = testImage.png; path = Resourses/Images/testImage.png; sourceTree = "<group>"; };
 		2DFAA8821B4F90AC00AF4689 /* inSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFAA8861B4F90AC00AF4689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DFAA8871B4F90AC00AF4689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,8 +188,6 @@
 		2DFAA9261B4F959800AF4689 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		2DFAA9271B4F959800AF4689 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		2DFAA9391B4F95E900AF4689 /* VKSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdk.framework; path = VKSdk/VKSdk.framework; sourceTree = "<group>"; };
-		2DFAA9411B4F97AC00AF4689 /* ISLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISLoginViewController.h; path = UI/Controllers/LoginController/ISLoginViewController.h; sourceTree = "<group>"; };
-		2DFAA9421B4F97AC00AF4689 /* ISLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISLoginViewController.m; path = UI/Controllers/LoginController/ISLoginViewController.m; sourceTree = "<group>"; };
 		2DFAA9441B4F97CE00AF4689 /* ISUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISUtils.h; path = Utils/ISUtils.h; sourceTree = "<group>"; };
 		2DFAA9451B4F97CE00AF4689 /* ISUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISUtils.m; path = Utils/ISUtils.m; sourceTree = "<group>"; };
 		2DFAA9491B4F98AC00AF4689 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resourses/Images.xcassets; sourceTree = "<group>"; };
@@ -191,6 +212,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D632F401B4F9F25006EDFBD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F411B4F9F25006EDFBD /* Cells */,
+				2D632F441B4F9F25006EDFBD /* Controllers */,
+				2D632F451B4F9F25006EDFBD /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2D632F411B4F9F25006EDFBD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F421B4F9F25006EDFBD /* ISCell.h */,
+				2D632F431B4F9F25006EDFBD /* ISCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2D632F441B4F9F25006EDFBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F4A1B4F9F44006EDFBD /* ISLoginViewController.h */,
+				2D632F4B1B4F9F44006EDFBD /* ISLoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D632F451B4F9F25006EDFBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D632F461B4F9F25006EDFBD /* ISView.h */,
+				2D632F471B4F9F25006EDFBD /* ISView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2DFAA8791B4F90AC00AF4689 = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +273,7 @@
 				2DFAA88F1B4F90AC00AF4689 /* Main.storyboard */,
 				2DFAA8891B4F90AC00AF4689 /* AppDelegate.h */,
 				2DFAA88A1B4F90AC00AF4689 /* AppDelegate.m */,
-				2DFAA8FC1B4F94CD00AF4689 /* UI */,
+				2D632F401B4F9F25006EDFBD /* UI */,
 				2DFAA94E1B4F999500AF4689 /* Models */,
 				2DFAA93B1B4F965200AF4689 /* Utils */,
 				2DFAA94B1B4F997500AF4689 /* Source */,
@@ -343,38 +401,6 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
-		2DFAA8FC1B4F94CD00AF4689 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				2DFAA8FF1B4F94E700AF4689 /* Cells */,
-				2DFAA8FE1B4F94DB00AF4689 /* Controllers */,
-				2DFAA8FD1B4F94D500AF4689 /* Views */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		2DFAA8FD1B4F94D500AF4689 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		2DFAA8FE1B4F94DB00AF4689 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				2DFAA9401B4F976700AF4689 /* LoginController */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		2DFAA8FF1B4F94E700AF4689 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
 		2DFAA9001B4F955700AF4689 /* VKSdk */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,15 +477,6 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		2DFAA9401B4F976700AF4689 /* LoginController */ = {
-			isa = PBXGroup;
-			children = (
-				2DFAA9411B4F97AC00AF4689 /* ISLoginViewController.h */,
-				2DFAA9421B4F97AC00AF4689 /* ISLoginViewController.m */,
-			);
-			name = LoginController;
-			sourceTree = "<group>";
-		};
 		2DFAA9471B4F981D00AF4689 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +490,7 @@
 		2DFAA9481B4F983500AF4689 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2D632F561B4FA1B2006EDFBD /* testImage.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -489,6 +507,8 @@
 		2DFAA94C1B4F997500AF4689 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				2D632F2F1B4F9DD2006EDFBD /* ISDateManger.h */,
+				2D632F301B4F9DD2006EDFBD /* ISDateManger.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -496,6 +516,8 @@
 		2DFAA94D1B4F997500AF4689 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				2D632F321B4F9E10006EDFBD /* ISServerManager.h */,
+				2D632F331B4F9E10006EDFBD /* ISServerManager.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -503,6 +525,8 @@
 		2DFAA94E1B4F999500AF4689 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2D632F361B4F9E6C006EDFBD /* ISUser.h */,
+				2D632F371B4F9E6C006EDFBD /* ISUser.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -510,6 +534,8 @@
 		2DFAA94F1B4F9A5C00AF4689 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				2D632F531B4FA070006EDFBD /* NSDate+NSDateExtension.h */,
+				2D632F541B4FA070006EDFBD /* NSDate+NSDateExtension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -517,6 +543,7 @@
 		2DFAA9501B4F9A5C00AF4689 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				2D632F3F1B4F9EE0006EDFBD /* ISPtorocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -604,6 +631,7 @@
 				2DFAA8E81B4F93AD00AF4689 /* menu-button.png in Resources */,
 				2DFAA8911B4F90AC00AF4689 /* Main.storyboard in Resources */,
 				2DFAA8961B4F90AC00AF4689 /* LaunchScreen.xib in Resources */,
+				2D632F571B4FA1B2006EDFBD /* testImage.png in Resources */,
 				2DFAA94A1B4F98AC00AF4689 /* Images.xcassets in Resources */,
 				2DFAA8E91B4F93AD00AF4689 /* menu-button@2x.png in Resources */,
 			);
@@ -624,7 +652,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFAA9281B4F959800AF4689 /* AFHTTPRequestOperation.m in Sources */,
+				2D632F311B4F9DD2006EDFBD /* ISDateManger.m in Sources */,
 				2DFAA9351B4F959800AF4689 /* UIImageView+AFNetworking.m in Sources */,
+				2D632F481B4F9F25006EDFBD /* ISCell.m in Sources */,
 				2DFAA8F81B4F93AD00AF4689 /* UIImageView+HighlightedWebCache.m in Sources */,
 				2DFAA8EF1B4F93AD00AF4689 /* SDWebImageDecoder.m in Sources */,
 				2DFAA8F91B4F93AD00AF4689 /* UIImageView+WebCache.m in Sources */,
@@ -642,27 +672,31 @@
 				2DFAA8EB1B4F93AD00AF4689 /* MKAnnotationView+WebCache.m in Sources */,
 				2DFAA8EE1B4F93AD00AF4689 /* SDWebImageCompat.m in Sources */,
 				2DFAA8F31B4F93AD00AF4689 /* SDWebImagePrefetcher.m in Sources */,
+				2D632F491B4F9F25006EDFBD /* ISView.m in Sources */,
 				2DFAA8FA1B4F93AD00AF4689 /* UIView+WebCacheOperation.m in Sources */,
 				2DFAA9301B4F959800AF4689 /* AFURLSessionManager.m in Sources */,
 				2DFAA8F61B4F93AD00AF4689 /* UIImage+MultiFormat.m in Sources */,
 				2DFAA9311B4F959800AF4689 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				2DFAA92C1B4F959800AF4689 /* AFSecurityPolicy.m in Sources */,
 				2DFAA9361B4F959800AF4689 /* UIProgressView+AFNetworking.m in Sources */,
-				2DFAA9431B4F97AC00AF4689 /* ISLoginViewController.m in Sources */,
 				2DFAA88B1B4F90AC00AF4689 /* AppDelegate.m in Sources */,
 				2DFAA92B1B4F959800AF4689 /* AFNetworkReachabilityManager.m in Sources */,
+				2D632F551B4FA070006EDFBD /* NSDate+NSDateExtension.m in Sources */,
 				2DFAA8F41B4F93AD00AF4689 /* UIButton+WebCache.m in Sources */,
+				2D632F381B4F9E6C006EDFBD /* ISUser.m in Sources */,
 				2DFAA92A1B4F959800AF4689 /* AFHTTPSessionManager.m in Sources */,
 				2DFAA9461B4F97CE00AF4689 /* ISUtils.m in Sources */,
 				2DFAA92E1B4F959800AF4689 /* AFURLRequestSerialization.m in Sources */,
 				2DFAA8E31B4F93AD00AF4689 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				2DFAA9331B4F959800AF4689 /* UIAlertView+AFNetworking.m in Sources */,
 				2DFAA8ED1B4F93AD00AF4689 /* SDImageCache.m in Sources */,
+				2D632F4C1B4F9F44006EDFBD /* ISLoginViewController.m in Sources */,
 				2DFAA8881B4F90AC00AF4689 /* main.m in Sources */,
 				2DFAA8E71B4F93AD00AF4689 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				2DFAA8E61B4F93AD00AF4689 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				2DFAA8F51B4F93AD00AF4689 /* UIImage+GIF.m in Sources */,
 				2DFAA9381B4F959800AF4689 /* UIWebView+AFNetworking.m in Sources */,
+				2D632F341B4F9E10006EDFBD /* ISServerManager.m in Sources */,
 				2DFAA8EC1B4F93AD00AF4689 /* NSData+ImageContentType.m in Sources */,
 				2DFAA8F71B4F93AD00AF4689 /* UIImage+WebP.m in Sources */,
 				2DFAA9371B4F959800AF4689 /* UIRefreshControl+AFNetworking.m in Sources */,
@@ -872,6 +906,7 @@
 				2DFAA8A71B4F90AC00AF4689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFAA8A81B4F90AC00AF4689 /* Build configuration list for PBXNativeTarget "inSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -880,6 +915,7 @@
 				2DFAA8AA1B4F90AC00AF4689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
