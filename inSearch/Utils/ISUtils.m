@@ -8,6 +8,15 @@
 
 #import "ISUtils.h"
 
-@implementation ISUtils
-
-@end
+void ISLog(NSString* format, ...) {
+    
+#if LOGS_ENABLED
+    
+    va_list argumentList;
+    va_start(argumentList, format);
+    
+    NSLogv(format, argumentList);
+    
+#endif
+    
+}

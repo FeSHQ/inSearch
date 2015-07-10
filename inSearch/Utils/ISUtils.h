@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ISUtils : NSObject
+#ifndef UTILS
+#define UTILS
 
-@end
+#define PRODUCTION_BUILD 0
+#define LOGS_ENABLED 1
+
+#define mainStoryboard()[UIStoryboard storyboardWithName:@"Main" bundle:nil]
+
+void ISLog(NSString* format, ...);
+
+#endif
