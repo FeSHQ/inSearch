@@ -66,7 +66,7 @@ static NSString *const kISNewEventViewController  = @"ISNewEventViewController";
 
 - (void)dealloc {
     
-    ISLog(@"ISNewEventViewController dealloc");
+    ISLog(@"ISEventsViewController dealloc");
 }
 
 #pragma mark - SlideNavigationControllerDelegate

@@ -15,7 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ISLog(@"ISSettingsViewController");
+    ISLog(@"ISSettingsViewControllerDidLoad");
     
     self.navigationItem.title = @"Настройки";
     

@@ -274,7 +274,6 @@
 		2D00BC041B5133BD00F73C30 /* UserProfileConrtoller */ = {
 			isa = PBXGroup;
 			children = (
-				2DF935DA1B501ADB00B2AC7F /* EventsController */,
 				2D00BC051B51340600F73C30 /* ISUserProfileViewConrtoller.h */,
 				2D00BC061B51340600F73C30 /* ISUserProfileViewConrtoller.m */,
 			);
@@ -311,6 +310,7 @@
 				2DF935E21B504B1300B2AC7F /* LeftMenuController */,
 				2DF935DB1B501ADB00B2AC7F /* LoginController */,
 				2D00BC031B5133BD00F73C30 /* SettingsConrtoller */,
+				2DF935DA1B501ADB00B2AC7F /* EventsController */,
 				2D00BC041B5133BD00F73C30 /* UserProfileConrtoller */,
 				2D00BBEF1B50E22D00F73C30 /* NewEventController */,
 			);
@@ -369,8 +369,7 @@
 				2D00BC0B1B51526400F73C30 /* ISSearchViewController.h */,
 				2D00BC0C1B51526400F73C30 /* ISSearchViewController.m */,
 			);
-			name = EventsController;
-			path = ../EventsController;
+			path = EventsController;
 			sourceTree = "<group>";
 		};
 		2DF935DB1B501ADB00B2AC7F /* LoginController */ = {

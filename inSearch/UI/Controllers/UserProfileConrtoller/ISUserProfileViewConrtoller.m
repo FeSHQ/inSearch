@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    ISLog(@"ISEventsViewControllerDidLoad");
+    ISLog(@"ISUserProfileViewConrtollerDidLoad");
     
     self.navigationItem.title = @"Профиль";
     
