@@ -18,6 +18,8 @@
 #import "ISUtils.h"
 
 static NSString *const kISEventsViewController  = @"ISEventsViewController";
+static NSString *const kISUserProfileViewConrtoller  = @"ISUserProfileViewConrtoller";
+static NSString *const kISSettingsViewController  = @"ISSettingsViewController";
 
 
 @interface ISLeftMenuController ()
@@ -119,13 +121,13 @@ static NSString *const kISEventsViewController  = @"ISEventsViewController";
     switch (indexPath.row)
     {
         case 0:
-            //vc = [mainStoryboard instantiateViewControllerWithIdentifier: @""];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: kISUserProfileViewConrtoller];
             break;
         case 1:
             vc = [mainStoryboard instantiateViewControllerWithIdentifier:kISEventsViewController];
             break;
         case 2:
-            //vc = [mainStoryboard instantiateViewControllerWithIdentifier: @""];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: kISSettingsViewController];
             break;
         case 3:
             [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
@@ -135,9 +137,9 @@ static NSString *const kISEventsViewController  = @"ISEventsViewController";
             
     }
 
-//    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
-//                                                             withSlideOutAnimation:self.slideOutAnimationEnabled
-//                                                                     andCompletion:nil];
+    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
+                                                             withSlideOutAnimation:self.slideOutAnimationEnabled
+                                                                     andCompletion:nil];
 }
 
 

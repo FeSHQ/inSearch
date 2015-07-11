@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "SlideNavigationController.h"
 
-@interface ISEventsViewController : UIViewController<SlideNavigationControllerDelegate>
+@interface ISEventsViewController : UIViewController<SlideNavigationControllerDelegate,UITableViewDelegate,
+UITableViewDataSource, UISearchResultsUpdating, UISearchBarDelegate>
 
 @end

@@ -11,6 +11,8 @@
 #import "SlideNavigationContorllerAnimatorFade.h"
 #import "SlideNavigationController.h"
 #import "ISLeftMenuController.h"
+#import "ISUtils.h"
+
 static NSString *const kISLeftMenuViewController  = @"ISLeftMenuController";
 
 
@@ -23,11 +25,11 @@ static NSString *const kISLeftMenuViewController  = @"ISLeftMenuController";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
-                                                             bundle: nil];
+    UIStoryboard *mainStoryboard = mainStoryboard();
+    
     
     ISLeftMenuController *leftMenu = (ISLeftMenuController *)[mainStoryboard
-                                                             instantiateViewControllerWithIdentifier:@"ISLeftMenuController"];
+                                                             instantiateViewControllerWithIdentifier:kISLeftMenuViewController];
     
     [SlideNavigationController sharedInstance].leftMenu = leftMenu;
     [SlideNavigationController sharedInstance].menuRevealAnimationDuration = .3;
@@ -37,17 +39,17 @@ static NSString *const kISLeftMenuViewController  = @"ISLeftMenuController";
     
     [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidClose object:nil queue:nil usingBlock:^(NSNotification *note) {
         NSString *menu = note.userInfo[@"menu"];
-        NSLog(@"Closed %@", menu);
+        ISLog(@"Closed %@", menu);
     }];
     
     [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidOpen object:nil queue:nil usingBlock:^(NSNotification *note) {
         NSString *menu = note.userInfo[@"menu"];
-        NSLog(@"Opened %@", menu);
+        ISLog(@"Opened %@", menu);
     }];
     
     [[NSNotificationCenter defaultCenter] addObserverForName:SlideNavigationControllerDidReveal object:nil queue:nil usingBlock:^(NSNotification *note) {
         NSString *menu = note.userInfo[@"menu"];
-        NSLog(@"Revealed %@", menu);
+        ISLog(@"Revealed %@", menu);
     }];
 
     return YES;
