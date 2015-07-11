@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9B6A229F-0160-4033-8424-A163C48A1228</string>
+	<key>IDESourceControlProjectName</key>
+	<string>inSearch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CD1C3EE27E34022405218FC28974D26B081CBE4</key>
+		<string>https://github.com/AlinaTeam/inSearch/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>inSearch.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CD1C3EE27E34022405218FC28974D26B081CBE4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlinaTeam/inSearch/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CD1C3EE27E34022405218FC28974D26B081CBE4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CD1C3EE27E34022405218FC28974D26B081CBE4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>inSearch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
